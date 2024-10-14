@@ -9,12 +9,12 @@
     const num = Number(prompt(`Informa um número ae`))
     
     //PROCESSAMENTO
-    switch (num) {
-        case num%2 === 1:
-            document.write(`Impar`);
+    switch (true) {
+        case (num % 2 === 0):
+            document.write(`Par`);
             break;
         default:
-            document.write(`Par`);
+            document.write(`Impar`);
             break;
     }
     
